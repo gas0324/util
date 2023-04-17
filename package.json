@@ -1,0 +1,27 @@
+{
+  "name": "@gas0324/util",
+  "version": "1.0.0",
+  "description": "util",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "repository": "https://github.com/gas0324/util",
+  "scripts": {
+    "build": "rmdir /Q /S dist && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepush": "npm run build",
+    "push": "npm publish --access public"
+  },
+  "keywords": [
+    "util",
+    "as-util",
+    "asUtil"
+  ],
+  "author": "Asd",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.3",
+    "typescript": "^4.9.5"
+  }
+}
