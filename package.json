@@ -1,6 +1,6 @@
 {
   "name": "@gas0324/util",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "util",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -18,8 +18,7 @@
   ],
   "author": "Asd",
   "license": "MIT",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/node": "^18.15.3",
     "typescript": "^4.9.5"
